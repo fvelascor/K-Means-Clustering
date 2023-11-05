@@ -1,5 +1,4 @@
 import numpy as np
-
 import initialization_methods as init_methods
 
 class KMeans:
@@ -95,6 +94,3 @@ class KMeans:
         if isinstance(X, np.ndarray):
             return X
         return np.array(X)
-        
-        
-        
